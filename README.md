@@ -35,4 +35,4 @@ Implement methods in either the Diamond or Emerald classes such that...
 2. You can add a new Emerald after a given Emerald in a Diamond, i.e. somewhere in the middle of the chain.
 3. You can search for the last Emerald in a Diamond that contains a given value.
 4. The last Emerald in a Diamond's chain always refers to the first, and the first Emerald in turn always refers to the last.
-
+5. Write this exercise in Javascript. Note: You'll want to use either prototypes or classes in Javascript if you decide to do this.
