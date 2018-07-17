@@ -3,7 +3,16 @@
 ## Problem
 1. Create an array containing 20000 integers.
 2. Use a loop to remove the 2nd element of the array until the array only contains 1 element.
-3. Time the operation in step 2. You can use `Time.new` to generate timestamps before and after the loop, and the difference between the two timestamps should give you the approximate duration of the operation.
+3. Time the operation in step 2. The `benchmark` gem should be available on default installations of Ruby and can be used with the following syntax:
+
+```
+Benchmark.bm do |bm|
+    puts "Title of test"
+    bm.report do
+        # Insert your test code here
+    end
+end
+```
 
 ## Optimization - Using Another Data Structure
 1. Create 2 classes - Emerald and Diamond
